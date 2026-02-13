@@ -1,0 +1,5 @@
+gpiozero
+mfrc522
+pygame
+RPi.GPIO
+spidev
