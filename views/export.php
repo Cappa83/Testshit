@@ -1,0 +1,1 @@
+<h2>Export / Backup</h2><div class="cards"><a class="button" href="?download=full">Vollbackup JSON</a><a class="button" href="?download=invpatch">InvPatch Export</a><a class="button" href="?download=sqlite">SQLite-Datei herunterladen + Backup-Kopie</a></div><p>Restore ist bewusst nicht stillschweigend: JSON zuerst über Import prüfen oder SQLite-Datei manuell sichern/ersetzen.</p>

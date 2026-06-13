@@ -1,0 +1,11 @@
+{
+  "schema": "kappa-invpatch/v1",
+  "source": "manual-example",
+  "comment": "Beispielimport für KappaInventar",
+  "operations": [
+    {"op":"upsert_location","code":"A01","name":"Schreibtisch / Arbeitsbereich","area":"Büro","parent_code":null,"notes":""},
+    {"op":"upsert_container","code":"B01","name":"Projekt-/Elektronikbox","type":"Box","location_code":"A01","notes":"Schwarze Box auf dem Schreibtischbereich"},
+    {"op":"add_item","name":"120-mm-Lüfter","quantity":4,"unit":"Stk","category":"Elektronik","location_code":"A01","container_code":"B01","location_detail":"","tags":["Lüfter","Projektteil"],"notes":""},
+    {"op":"add_item","name":"CCT Controller","quantity":1,"unit":"Stk","category":"Elektronik","location_code":"A01","container_code":"B01","location_detail":"","tags":["LED","Controller"],"notes":""}
+  ]
+}
