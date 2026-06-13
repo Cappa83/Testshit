@@ -1,0 +1,1 @@
+document.addEventListener('change',e=>{ if(e.target.name==='location_id'){ const hint=document.querySelector('[name="container_id"]'); if(hint) hint.title='Behälterliste zeigt alle Behälter mit Ortscode.'; }});
